@@ -1,4 +1,3 @@
-// So sánh 2 mảng dùng TryCatch
 #include <stdio.h>
 #include <setjmp.h>
 jmp_buf jmp;
@@ -24,7 +23,7 @@ void EqualArr (char A[], char B[]){
 int main (){
 
     TRY {
-         MyStr1[100], MyStr2[100];
+        int i, MyStr1[100], MyStr2[100];
         printf ("\nNhap vao chuoi 1");
         scanf ("%s",MyStr1 );
         printf ("\nNhap vao chuoi 2");
