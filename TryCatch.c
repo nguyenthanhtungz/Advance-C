@@ -24,7 +24,7 @@ void EqualArr (char A[], char B[]){
 int main (){
 
     TRY {
-        int i, MyStr1[100], MyStr2[100];
+         MyStr1[100], MyStr2[100];
         printf ("\nNhap vao chuoi 1");
         scanf ("%s",MyStr1 );
         printf ("\nNhap vao chuoi 2");
